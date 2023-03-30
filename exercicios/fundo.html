@@ -6,13 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de imagem de fundo</title>
     <style>
-        body{
-            background-image: url('imagens/pattern003.png');
-            background-repeat: no-repeat;
+        #container{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+
+            background-color: blueviolet;
+            height: 91vh;
+            width: 530px;
+            padding: 10px;
+        }
+
+        #conteudo{
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            position: absolute;
+
+            background-color: yellow;
+            height: 200px;
+            width: 250px;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50% ,-50%);
         }
     </style>
 </head>
 <body>
+    <section id="container">
+        <article id="conteudo">
 
+        </article>
+    </section>
 </body>
 </html>
