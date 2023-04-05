@@ -6,25 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Primeiro site</title>
     <style>
-        h1{
-            background-color: black;
-            color: white;
-            font-weight: bold;
-            text-align: center;
-            border-radius: 10px;
+        table{
             width: 300px;
-            margin: auto;
-            margin-bottom: 40px;
+            text-align: center;
         }
 
-        p{
-            text-indent: 30px;
-            text-align: justify;
+        td{
+            border: 1px solid black;
+            padding: 3px;
         }
-    </style>
+    </style>    
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus fugiat obcaecati distinctio, eius laboriosam similique recusandae odio! Itaque consectetur, saepe velit soluta porro, exercitationem minima, quaerat reiciendis temporibus atque corrupti.</p>
+    <table>
+        <tr>
+            <td colspan="4">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td rowspan="4">C</td>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L<L/td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="4">N</td>
+        </tr>
+    </table>
 </body>
 </html>
