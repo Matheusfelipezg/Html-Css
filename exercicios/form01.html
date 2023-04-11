@@ -15,11 +15,11 @@
     <h1>Meu primeiro formulário</h1>
     <form action="cadastro.php" autocomplete="off">
         <p>
-            <label for="nome">Nome:</label> <input type="text" id="nome">
+            <label for="nome">Nome:</label> <input type="text" id="nome" required minlength="5" maxlength="15">
         </p>
 
         <p>
-            <label for="sobrenome">Sobrenome:</label> <input type="text" id="sobrenome">
+            <label for="sobrenome">Sobrenome:</label> <input type="text" id="sobrenome" required min="8" maxlength="20">
         </p> 
 
         <p>
