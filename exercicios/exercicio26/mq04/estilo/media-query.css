@@ -25,4 +25,8 @@ Acima de 1200px
     menu > ul > li{
         display: inline-block;
     }
+    
+    main{
+        width: 768px;
+    }
 }
